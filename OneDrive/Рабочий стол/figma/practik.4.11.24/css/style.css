@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Heebo, sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1290px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+#header {
+  padding-block: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: black;
+}
+
+#info {
+  padding-block: 30px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.info-text h1 {
+  width: 506px;
+  font-size: 34px;
+}
+
+.info-text p {
+  font-size: 16px;
+  width: 681px;
+}
+
+.btn button {
+  width: 62px;
+  background-color: rgba(255, 124, 124, 1);
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+  color: aliceblue;
+}
+
+.info {
+  margin-inline: 150px;
+}
+
+.btn a {
+  color: black;
+}
+
+.btn a {
+  margin-bottom: 100px;
+}
+
+.work-text h2 {
+  font-size: 20px;
+}
+.work-text p {
+  width: 687px;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.work {
+  margin-inline: 150px;
+}
+
+#footer {
+  padding-block: 50px;
+  display: flex;
+}
+
+.footer-img {
+  margin-left: 300px;
+}
+
+.footer-img {
+  display: flex;
+  gap: 25px;
+}
+
+.footer h1 {
+  font-size: 13px;
+  color: black;
+  margin-left: 300px;
+  margin-top: 20px;
+}

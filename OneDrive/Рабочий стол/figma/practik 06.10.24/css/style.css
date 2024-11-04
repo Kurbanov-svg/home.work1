@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+#header {
+  padding-block: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 33px;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(38, 50, 56, 1);
+}
+
+.header button {
+  width: 210px;
+  height: 60px;
+  border: 2px solid rgba(38, 50, 56, 1);
+  border-radius: 5px;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 34px;
+  color: rgba(143, 149, 165, 1);
+}
+
+button {
+  width: 210px;
+  height: 60px;
+  border: 2px solid rgba(38, 50, 56, 1);
+  border-radius: 5px;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(38, 50, 56, 1);
+}
+
+.text-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 700px;
+  position: relative;
+}
+
+.text-gap h1::after {
+  content: url(/image/light-bulb-svgrepo-com\ 1.svg);
+  position: absolute;
+  top: 100px;
+  right: 250px;
+}
+
+.text-gap h1 {
+  width: 350px;
+  font-size: 50px;
+}
+
+.text-gap p {
+  width: 415px;
+}
+
+.britlex {
+  display: flex;
+  align-items: center;
+}
+
+.text-gap button {
+  color: #fff;
+}
+
+.section h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-weight: 600px;
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.text-skills h2 {
+  font-weight: 600px;
+  font-size: 34px;
+  line-height: 80px;
+}
+
+.text-skills p {
+  width: 400px;
+  font-size: 16px;
+}
