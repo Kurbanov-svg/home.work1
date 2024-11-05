@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Heebo, sans-serif;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .container {
@@ -18,6 +19,16 @@
 .header {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+}
+
+.burger-menu {
+  display: none;
+  justify-content: flex-end;
+}
+
+.burger-menu span {
+  font-size: 24px;
 }
 
 nav {
@@ -38,18 +49,21 @@ nav a {
 .info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .info-text h1 {
   font-size: 42px;
   font-weight: 700;
-  width: 500px;
+  /* width: 500px; */
+  margin-top: 15px;
 }
 
 .info-text p {
   font-size: 16px;
   width: 400px;
   color: #21243d;
+  margin-top: 15px;
 }
 
 .info-text button {
@@ -60,6 +74,19 @@ nav a {
   border: none;
   border-radius: 4px;
   color: white;
+  margin-top: 15px;
+}
+
+.hub-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
 }
 
 #sub {
@@ -71,18 +98,23 @@ nav a {
   justify-content: space-between;
 }
 
+.sub-text {
+  font-size: 13;
+  display: flex;
+  justify-content: center;
+}
+
 .sub {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .box p {
-  width: 400px;
+  /* width: px; */
   color: #21243d;
 }
 
 .box h1 {
-  width: 400px;
+  /* width: px; */
 }
 
 #hub {
@@ -91,10 +123,10 @@ nav a {
 
 .box {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 20px;
   background-color: rgb(189, 152, 152);
-  width: 400px;
+  width: 350px;
   padding: 30px;
 }
 
@@ -104,24 +136,26 @@ nav a {
 }
 
 .hub-text h1 {
-  font-size: 30px;
+  font-size: 20px;
   color: #21243d;
+  width: 250px;
 }
 .hub-text p {
-  width: 594px;
-  font-size: 16px;
+  width: 250px;
+  font-size: 12px;
   color: #21243d;
 }
 
 .hub-text h2 {
   background-color: #142850;
-  width: 90px;
-  height: 35px;
-  border-radius: 16px;
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
   text-align: center;
   color: white;
   margin-bottom: 15px;
   margin-top: 15px;
+  font-size: 12px;
 }
 
 .hub-title {
