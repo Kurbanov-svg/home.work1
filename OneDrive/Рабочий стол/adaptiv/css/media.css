@@ -1,7 +1,7 @@
 @media (max-width: 744px) {
   .info-text h1 {
     font-size: 35px;
-    width: 330px;
+    width: 300px;
   }
   .info-text p {
     width: 250px;
@@ -131,5 +131,52 @@
     height: 25px;
     border-radius: 10px;
     font-size: 12px;
+  }
+}
+
+@media (max-width: 581px) {
+  .info-text h1 {
+    font-size: 33px;
+    width: 280px;
+  }
+  .info-text p {
+    width: 250px;
+    font-size: 13px;
+  }
+  .info-text button {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .image {
+    width: 200px;
+  }
+}
+
+@media (max-width: 560px) {
+  .info-text h1 {
+    font-size: 33px;
+    width: 230px;
+  }
+  .info-text p {
+    width: 250px;
+    font-size: 13px;
+  }
+  .info-text button {
+    width: 145px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .image {
+    width: 200px;
+  }
+}
+
+@media (max-width: 580px) {
+  .info-text h1 {
+    width: 225px;
+    font-size: 28px;
   }
 }

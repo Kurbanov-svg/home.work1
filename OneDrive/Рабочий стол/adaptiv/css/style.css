@@ -50,6 +50,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .info-text h1 {
